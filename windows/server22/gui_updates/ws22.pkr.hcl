@@ -35,8 +35,8 @@ source "proxmox-iso" "wsservergui22" {
   boot_wait        = "10m"
   iso_checksum     = "md5:064b69d7e35689acf518fa8f80269dad"
   iso_storage_pool = "local"
-  #iso_url                 = "https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso"
-  iso_file                = "local:iso/SERVER_EVAL_x64FRE_en-us.iso"
+  iso_url                 = "https://software-static.download.prss.microsoft.com/sg/download/888969d5-f34g-4e03-ac9d-1f9786c66749/SERVER_EVAL_x64FRE_en-us.iso"
+  #iso_file                = "local:iso/SERVER_EVAL_x64FRE_en-us.iso"
   unmount_iso             = true
   cloud_init              = true
   cloud_init_storage_pool = "local-lvm"
